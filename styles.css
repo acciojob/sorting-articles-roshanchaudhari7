@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.pexels.com/photos/1324803/pexels-photo-1324803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    width: 30vw;
+    background-color: #f6efef;
+    list-style: inside;
+    list-style-type: square;
+    padding: 20px 30px;
+    font-size: 18px;
+    box-shadow: 0px 15px 20px 13px #547daf;
+}
+
+ul li {
+    padding: 15px;
+    border: 2px solid rgb(230, 224, 224);
+}
